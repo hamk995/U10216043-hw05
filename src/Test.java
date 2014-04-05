@@ -167,7 +167,7 @@ public class Test extends JFrame {
 		public void actionPerformed(ActionEvent e){
 			if(e.getSource() == jbtLogIn){
 				secondInteger = Double.parseDouble(jftID.getText());
-				if(secondInteger == 0000){
+				if(secondInteger == 1234){
 					CalculatorPanels();
 				}
 				else
